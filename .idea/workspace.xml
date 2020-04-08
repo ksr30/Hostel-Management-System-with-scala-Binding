@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b6c0d77-2242-4bb7-9c38-286ff4e304d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1aENQ27J9aiuaAZxIMAhZqJnfuY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="hostel-management-system" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="parent [file:/home/knoldus/Documents/Running/new%20scala/hostel-management-system/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="application [file:/home/knoldus/Documents/Running/new%20scala/hostel-management-system/]" />
+                <option name="path" value="$PROJECT_DIR$/application" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="scala-codegen [file:/home/knoldus/Documents/Running/new%20scala/hostel-management-system/]" />
+                <option name="path" value="$PROJECT_DIR$/scala-codegen" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hostel-management-system-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="3329219743" />
+        <entry key="$PROJECT_DIR$/project/Artifactory.scala" value="1814732667" />
+        <entry key="$PROJECT_DIR$/project/Versions.scala" value="4119680234" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3280644262" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../DAML/TestDaml" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../DAML/quickstart-scala2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../LogAnalyserCluster-3040b98434693f3b82fb7e5b73240c338a0beda3" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Test2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../quickstart-scala" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b6c0d77-2242-4bb7-9c38-286ff4e304d2" name="Default Changelist" comment="" />
+      <created>1586296773224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586296773224</updated>
+    </task>
+    <servers />
+  </component>
+</project>

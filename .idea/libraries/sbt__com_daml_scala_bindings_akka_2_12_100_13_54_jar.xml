@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.daml.scala:bindings-akka_2.12:100.13.54:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.daml.scala/bindings-akka_2.12/jars/bindings-akka_2.12-100.13.54.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.daml.scala/bindings-akka_2.12/srcs/bindings-akka_2.12-100.13.54-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

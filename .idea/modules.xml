@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/application.iml" filepath="$PROJECT_DIR$/.idea/modules/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hostel-management-system.iml" filepath="$PROJECT_DIR$/.idea/modules/hostel-management-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hostel-management-system-build.iml" filepath="$PROJECT_DIR$/.idea/modules/hostel-management-system-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-codegen.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-codegen.iml" />
+    </modules>
+  </component>
+</project>

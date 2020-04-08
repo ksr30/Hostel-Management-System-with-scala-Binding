@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Documents/Running/new scala/hostel-management-system/application/src/main/scala/com/knoldus/IouMain.scala:139:21: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String @@ com.digitalasset.ledger.api.refinements.ApiTypes.PartyTag[0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  AnyRef{type Tag = com.digitalasset.ledger.api.refinements.ApiTypes.PartyTag; type Self = String}[0m
+[0m[[0m[31merror[0m] [0m[0m required: com.digitalasset.ledger.client.binding.Primitive.List[com.digitalasset.ledger.client.binding.Primitive.Party][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  scala.collection.immutable.Seq[AnyRef{type Tag = com.digitalasset.ledger.api.refinements.ApiTypes.PartyTag; type Self = String}][0m
+[0m[[0m[31merror[0m] [0m[0m    alreadySigned = manager1[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Documents/Running/new scala/hostel-management-system/application/src/main/scala/com/knoldus/IouMain.scala:146:5: constructor cannot be instantiated to expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (T1, T2, T3)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m    offset0 <- offset0F[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

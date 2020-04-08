@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.daml.ledger:bindings-java:100.13.54:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.daml.ledger/bindings-java/jars/bindings-java-100.13.54.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.daml.ledger/bindings-java/srcs/bindings-java-100.13.54-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

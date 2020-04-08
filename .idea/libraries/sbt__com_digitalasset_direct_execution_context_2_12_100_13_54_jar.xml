@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: com.digitalasset:direct-execution-context_2.12:100.13.54:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.digitalasset/direct-execution-context_2.12/jars/direct-execution-context_2.12-100.13.54.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.digitalasset/direct-execution-context_2.12/srcs/direct-execution-context_2.12-100.13.54-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -155,14 +155,14 @@ object IouMain extends App with StrictLogging {
     _ <- clientUtil.submitCommand(hostler2, hostler2WorkflowId, exerciseCmd)
     _ = logger.info(s"$hostler2 sent exercise command: $exerciseCmd")
     tx2 <- clientUtil.nextTransaction(hostler2, offset2)(amat)
-    _ = logger.info(s"$hostler2 received transaction [FLAG]: $tx2")
+    _ = logger.info(s"$hostler2 received transaction : $tx2")
    tempConfirmationAgreement2 <- toFuture(decodeAllCreated[M.Confirmation_Agreement](tx2).headOption)
     _ = logger.info(s"$hostler2 received confirmation : $tempConfirmationAgreement2")
 
     offset3 <- clientUtil.ledgerEnd
     exerciseCmd1 = tempConfirmationAgreement2.contractId.exerciseApprove(actor = hostler3,signer = hostler3)
     _ <- clientUtil.submitCommand(hostler3, hostler3WorkflowId, exerciseCmd1)
-    _ = logger.info(s"$hostler3 sent exercise command: $exerciseCmd1 + KSR1")
+    _ = logger.info(s"$hostler3 sent exercise command: $exerciseCmd1 ")
     tx3 <- clientUtil.nextTransaction(hostler3, offset3)(amat)
     _ = logger.info(s"$hostler3 received transaction: $tx3")
     tempConfirmationAgreement3 <- toFuture(decodeAllCreated[M.Confirmation_Agreement](tx3).headOption)
@@ -171,7 +171,7 @@ object IouMain extends App with StrictLogging {
     offset4 <- clientUtil.ledgerEnd
     exerciseCmd1 = tempConfirmationAgreement3.contractId.exerciseApprove(actor = hostler4,signer = hostler4)
     _ <- clientUtil.submitCommand(hostler4, hostler4WorkflowId, exerciseCmd1)
-    _ = logger.info(s"$hostler4 sent exercise command: $exerciseCmd1 + KSR1")
+    _ = logger.info(s"$hostler4 sent exercise command: $exerciseCmd1 ")
     tx4 <- clientUtil.nextTransaction(hostler4, offset4)(amat)
     _ = logger.info(s"$hostler4 received transaction: $tx4")
     tempConfirmationAgreement4 <- toFuture(decodeAllCreated[M.Confirmation_Agreement](tx4).headOption)
@@ -180,11 +180,11 @@ object IouMain extends App with StrictLogging {
     offset5 <- clientUtil.ledgerEnd
     exerciseCmd1 = tempConfirmationAgreement4.contractId.exerciseDoPay(actor = manager1,newMoney = 100000)
     _ <- clientUtil.submitCommand(manager1, managerWorkflowId, exerciseCmd1)
-    _ = logger.info(s"$manager1 sent exercise command: $exerciseCmd1 + KSR1")
+    _ = logger.info(s"$manager1 sent exercise command: $exerciseCmd1 ")
     tx5 <- clientUtil.nextTransaction(manager1, offset5)(amat)
-    _ = logger.info(s"$hostler4 received transaction: $tx5")
+    _ = logger.info(s"$manager1 received transaction: $tx5")
     tempConfirmationAgreement5 <- toFuture(decodeAllCreated[M.Money_Transfer_Agreement](tx5).headOption)
-    _ = logger.info(s"$hostler4 received confirmation: $tempConfirmationAgreement5")
+    _ = logger.info(s"$manager1 received confirmation: $tempConfirmationAgreement5")
 
   } yield ()
 

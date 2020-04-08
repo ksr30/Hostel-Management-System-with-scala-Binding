@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b6c0d77-2242-4bb7-9c38-286ff4e304d2" name="Default Changelist" comment="" />
+    <list default="true" id="3b6c0d77-2242-4bb7-9c38-286ff4e304d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/IouMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/IouMain.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,9 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -26,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
@@ -62,6 +70,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="6344418581272" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3329219743" />
         <entry key="$PROJECT_DIR$/project/Artifactory.scala" value="1814732667" />
         <entry key="$PROJECT_DIR$/project/Versions.scala" value="4119680234" />
@@ -90,5 +99,11 @@
       <updated>1586296773224</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586365626887">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1586365626887" />
   </component>
 </project>

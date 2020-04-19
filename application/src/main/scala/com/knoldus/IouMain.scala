@@ -27,7 +27,7 @@ import scala.concurrent.duration._
 import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
-// <doc-ref:imports>
+
 import com.digitalasset.ledger.client.binding.{Primitive => P}
 import com.knoldus.{Main => M}
 
@@ -43,7 +43,7 @@ object IouMain extends App with StrictLogging {
   private val ledgerPort = args(1).toInt
 
 
-
+// Creating Parties
   private val hostler1 = P.Party("U1")
   private val hostler2 = P.Party("U2")
   private val hostler3 = P.Party("U3")
@@ -52,7 +52,7 @@ object IouMain extends App with StrictLogging {
   private val service_Provider1 = P.Party("XYZ Service Provider")
 
   val listOfHostlers = List(hostler1,hostler2,hostler3,hostler4)
-
+// TODO why?
   private val asys = ActorSystem()
   private val amat = Materializer(asys)
   private val aesf = new AkkaExecutionSequencerPool("clientPool")(asys)
@@ -69,7 +69,7 @@ object IouMain extends App with StrictLogging {
 
   private val timeProvider = TimeProvider.Constant(Instant.EPOCH)
 
-  // <doc-ref:ledger-client-configuration>
+  // Configure client's end which is going to interact with ledger
   private val clientConfig = LedgerClientConfiguration(
     applicationId = ApplicationId.unwrap(applicationId),
     ledgerIdRequirement = LedgerIdRequirement("", enabled = false),
@@ -77,7 +77,7 @@ object IouMain extends App with StrictLogging {
     sslContext = None,
     token = None
   )
-  // </doc-ref:ledger-client-configuration>
+
 
   private val clientF: Future[LedgerClient] =
     LedgerClient.singleHost(ledgerHost, ledgerPort, clientConfig)(ec, aesf)
@@ -87,6 +87,7 @@ object IouMain extends App with StrictLogging {
 
   private val offset0F: Future[LedgerOffset] = clientUtilF.flatMap(_.ledgerEnd)
 
+// Set workflowId of each party which is going to interact with ledger
 
   private val hostler1WorkflowId: WorkflowId = workflowIdFromParty(hostler1)
   private val hostler2WorkflowId: WorkflowId = workflowIdFromParty(hostler2)
@@ -96,16 +97,16 @@ object IouMain extends App with StrictLogging {
   private val service_ProviderWorkflowId: WorkflowId = workflowIdFromParty(service_Provider1)
 
 
-  // <doc-ref:iou-contract-instance>
+// final contract between manager and service provider
 
   val finalContract1 = M.Money_Transfer_Agreement(
     issuer = manager1,
     owner = service_Provider1,
     money = 0,
     signatories = manager1 :: listOfHostlers
-
-
   )
+
+// Confirmation Contract after service is provided
 
   val confirmationAgreement = M.Confirmation_Agreement(
     manager = manager1,
@@ -116,27 +117,38 @@ object IouMain extends App with StrictLogging {
 
 
     )
-  // </doc-ref:iou-contract-instance>
+
+
 
   val issuerFlow: Future[Unit] = for {
     clientUtil <- clientUtilF
     offset0 <- offset0F
     _ = logger.info(s"Client API initialization completed, Ledger ID: ${clientUtil.toString}")
 
+    // Manager creates confirmation contract with all hostelers as observer.
 
     createCmd = confirmationAgreement.create
+
+    // Send created command to ledger
+
     _ <- clientUtil.submitCommand(manager1, managerWorkflowId, createCmd)
     _ = logger.info(s"$manager1 created Confirmation Agreement: $confirmationAgreement")
     _ = logger.info(s"$manager1 sent create command: $createCmd")
 
+   // To confirm, command executed properly on ledger
+    // nextTransaction :- Fetches transaction created by manager from ledger                             // contact != transaction ; contract = subset(transaction)
 
     tx0 <- clientUtil.nextTransaction(manager1, offset0)(amat)
     _ = logger.info(s"$manager1 received transaction: $tx0")
+
+    // decodeCreated :- Decodes contract created of manager of 'Confirmation_Agreement' type from fetched transaction.
+
     tempConfirmationAgreement <- toFuture(decodeCreated[M.Confirmation_Agreement](tx0))
     _ = logger.info(s"$manager1 received contract: $tempConfirmationAgreement")
 
     offset1 <- clientUtil.ledgerEnd
 
+// hostler1 approves contract by exercising approve choice
 
     exerciseCmd = tempConfirmationAgreement.contractId.exerciseApprove(actor = hostler1,signer = hostler1)
 
@@ -178,7 +190,10 @@ object IouMain extends App with StrictLogging {
     _ = logger.info(s"$hostler4 received confirmation: $tempConfirmationAgreement4")
 
     offset5 <- clientUtil.ledgerEnd
-    exerciseCmd1 = tempConfirmationAgreement4.contractId.exerciseDoPay(actor = manager1,newMoney = 100000)
+
+    // DoPay choice exercised by manager
+
+    exerciseCmd1 = tempConfirmationAgreement4.contractId.exerciseDoPay(actor = manager1,newMoney = 10000)
     _ <- clientUtil.submitCommand(manager1, managerWorkflowId, exerciseCmd1)
     _ = logger.info(s"$manager1 sent exercise command: $exerciseCmd1 ")
     tx5 <- clientUtil.nextTransaction(manager1, offset5)(amat)

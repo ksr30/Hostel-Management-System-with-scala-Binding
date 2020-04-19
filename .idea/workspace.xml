@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b6c0d77-2242-4bb7-9c38-286ff4e304d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/IouMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/scala/com/knoldus/IouMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/scala-2.12/application_2.12-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/scala-2.12/application_2.12-0.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/scala-2.12/classes/com/knoldus/IouMain$.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/scala-2.12/classes/com/knoldus/IouMain$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/application/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daml/Main.daml" beforeDir="false" afterPath="$PROJECT_DIR$/daml/Main.daml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox.log" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +107,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586365626887">
+    <state x="461" y="140" width="424" height="513" key="FileChooserDialogImpl" timestamp="1586945079997">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1586365626887" />
+    <state x="461" y="140" width="424" height="513" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1586945079997" />
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586881518897">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1586881518897" />
+    <state x="1842" y="287" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1586706571440" />
+    <state x="0" y="123" width="1356" height="547" key="new project wizard" timestamp="1586945110638">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="123" width="1356" height="547" key="new project wizard/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1586945110638" />
   </component>
 </project>

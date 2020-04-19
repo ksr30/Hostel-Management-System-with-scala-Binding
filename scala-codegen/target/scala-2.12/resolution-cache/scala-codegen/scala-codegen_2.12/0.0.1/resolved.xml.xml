@@ -4,7 +4,7 @@
 		module="scala-codegen_2.12"
 		revision="0.0.1"
 		status="integration"
-		publication="20200408172706"
+		publication="20200417160031"
 	>
 		<description>
 		scala-codegen

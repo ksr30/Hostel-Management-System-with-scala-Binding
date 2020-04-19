@@ -13289,19 +13289,17 @@
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.ghik#silencer-lib_2.12;1.3.1!silencer-lib_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.scala#bindings-akka_2.12;100.13.55!bindings-akka_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger-api.grpc-definitions#ledger-api-scalapb_2.12;100.13.55!ledger-api-scalapb_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-core;1.22.1!grpc-core.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.12;7.2.24!scalaz-core_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.8.0!protobuf-java.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-core;1.22.1!grpc-core.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#daml-lf-data_2.12;100.13.55!daml-lf-data_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thesamet.scalapb#lenses_2.12;0.9.0!lenses_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thesamet.scalapb#scalapb-runtime-grpc_2.12;0.9.0!scalapb-runtime-grpc_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.scala#bindings_2.12;100.13.55!bindings_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.8.0!protobuf-java.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thesamet.scalapb#scalapb-runtime_2.12;0.9.0!scalapb-runtime_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-api;1.22.1!grpc-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-protobuf;1.22.1!grpc-protobuf.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-stub;1.22.1!grpc-stub.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.thesamet.scalapb#lenses_2.12;0.9.0!lenses_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;2.1.3!fastparse_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.7!sourcecode_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-context;1.22.1!grpc-context.jar[0m
@@ -13310,50 +13308,48 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.guava#guava;26.0-android!guava.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.checkerframework#checker-compat-qual;2.5.2!checker-compat-qual.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.gson#gson;2.7!gson.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.android#annotations;4.1.1.4!annotations.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.perfmark#perfmark-api;0.16.0!perfmark-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.opencensus#opencensus-contrib-grpc-metrics;0.21.0!opencensus-contrib-grpc-metrics.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.3.3!error_prone_annotations.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.opencensus#opencensus-api;0.21.0!opencensus-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.api.grpc#proto-google-common-protos;1.12.0!proto-google-common-protos.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.opencensus#opencensus-contrib-grpc-metrics;0.21.0!opencensus-contrib-grpc-metrics.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-protobuf-lite;1.22.1!grpc-protobuf-lite.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.2!shapeless_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.ledger#bindings-java;100.13.55!bindings-java.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger#ledger-api-domain_2.12;100.13.55!ledger-api-domain_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger#ledger-api-client_2.12;100.13.55!ledger-api-client_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger-api#rs-grpc-akka_2.12;100.13.55!rs-grpc-akka_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.scala#bindings_2.12;100.13.55!bindings_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.2!shapeless_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.opencensus#opencensus-api;0.21.0!opencensus-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.3.3!error_prone_annotations.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.pureconfig#pureconfig_2.12;0.8.0!pureconfig_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.4.0!config.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.6.1!akka-actor_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.6.1!akka-stream_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-netty;1.22.1!grpc-netty.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.scala-logging#scala-logging_2.12;3.9.2!scala-logging_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.pureconfig#pureconfig_2.12;0.8.0!pureconfig_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.grpc#grpc-netty;1.22.1!grpc-netty.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-handler;4.1.37.Final!netty-handler.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-tcnative-boringssl-static;2.0.25.Final!netty-tcnative-boringssl-static.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-codec-http2;4.1.35.Final!netty-codec-http2.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.checkerframework#checker;2.5.4!checker.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.code.gson#gson;2.7!gson.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-codec-http2;4.1.35.Final!netty-codec-http2.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-handler-proxy;4.1.35.Final!netty-handler-proxy.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-common;4.1.35.Final!netty-common.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-buffer;4.1.35.Final!netty-buffer.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-transport;4.1.35.Final!netty-transport.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-codec-http;4.1.35.Final!netty-codec-http.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-codec-socks;4.1.35.Final!netty-codec-socks.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#direct-execution-context_2.12;100.13.55!direct-execution-context_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-resolver;4.1.35.Final!netty-resolver.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#grpc-utils_2.12;100.13.55!grpc-utils_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger#ledger-api-auth-client;100.13.55!ledger-api-auth-client.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger-api#rs-grpc-bridge;100.13.55!rs-grpc-bridge.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-codec;4.1.35.Final!netty-codec.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#daml-lf-transaction_2.12;100.13.55!daml-lf-transaction_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-codec-http;4.1.35.Final!netty-codec-http.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-resolver;4.1.35.Final!netty-resolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-codec-socks;4.1.35.Final!netty-codec-socks.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger#ledger-api-client_2.12;100.13.55!ledger-api-client_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.ledger#bindings-java;100.13.55!bindings-java.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger-api#rs-grpc-akka_2.12;100.13.55!rs-grpc-akka_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#direct-execution-context_2.12;100.13.55!direct-execution-context_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger#ledger-api-auth-client;100.13.55!ledger-api-auth-client.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#grpc-utils_2.12;100.13.55!grpc-utils_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.scala#bindings-akka_2.12;100.13.55!bindings-akka_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger#ledger-api-domain_2.12;100.13.55!ledger-api-domain_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.zipkin.brave#brave;4.6.0!brave.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.ledger#participant-state-ledger-configuration-java-proto;100.13.55!participant-state-ledger-configuration-java-proto.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#daml-lf-dev-archive-java-proto;100.13.55!daml-lf-dev-archive-java-proto.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger#ledger-api-health_2.12;100.13.55!ledger-api-health_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#daml-lf-blindinginfo-java-proto;100.13.55!daml-lf-blindinginfo-java-proto.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#daml-lf-language_2.12;100.13.55!daml-lf-language_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#daml-lf-transaction-java-proto;100.13.55!daml-lf-transaction-java-proto.jar[0m
@@ -13365,6 +13361,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.2!scala-parser-combinators_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.zipkin.java#zipkin;1.31.0!zipkin.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.zipkin.reporter#zipkin-reporter;1.0.2!zipkin-reporter.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-common;4.1.37.Final!netty-common.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-buffer;4.1.37.Final!netty-buffer.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-transport;4.1.37.Final!netty-transport.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-codec;4.1.37.Final!netty-codec.jar[0m
@@ -13374,20 +13371,23 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger-api#rs-grpc-bridge;100.13.55!rs-grpc-bridge.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.ledger#participant-state_2.12;100.13.55!participant-state_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.netty#netty-common;4.1.37.Final!netty-common.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 13868ms :: artifacts dl 46ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 compile produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 runtime produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 test produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 provided produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 optional produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 compile-internal produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 runtime-internal produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 test-internal produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 plugin produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 pom produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 scala-tool produced in /home/knoldus/Documents/Running/new scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (13868ms resolve - 46ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset#daml-lf-transaction_2.12;100.13.55!daml-lf-transaction_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.daml.ledger#participant-state-ledger-configuration-java-proto;100.13.55!participant-state-ledger-configuration-java-proto.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.digitalasset.ledger#ledger-api-health_2.12;100.13.55!ledger-api-health_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 13919ms :: artifacts dl 208ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 compile produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 runtime produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 test produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 provided produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 optional produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 compile-internal produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 runtime-internal produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 test-internal produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 plugin produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 pom produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for application#application_2.12;0.0.1 scala-tool produced in /home/knoldus/Documents/Running/new-scala/hostel-management-system/application/target/scala-2.12/resolution-cache/reports/application-application_2.12-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (13919ms resolve - 208ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m
 [0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m

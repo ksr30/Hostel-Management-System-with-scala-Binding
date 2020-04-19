@@ -42,7 +42,7 @@ If example completes successfully, the above process should terminate and the ou
 ## Test
 
 ```bash
-daml damlc -- test --files daml/com/knoldus/example/daml/Tests/MainTest.daml
+daml damlc -- test --files daml/Tests/MainTest.daml
 
 ```
 ## Running Scenarios
